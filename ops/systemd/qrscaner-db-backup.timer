@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily QRScaner DB backup
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+RandomizedDelaySec=1h
+Unit=qrscaner-db-backup.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,7 @@
+[Unit]
+Description=QRScaner DB backup (SQLite/PostgreSQL)
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/qrscaner
+ExecStart=/opt/qrscaner/venv/bin/python scripts/backup_db.py --out-dir data/backups --keep 14 --gzip

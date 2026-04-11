@@ -1,0 +1,20 @@
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = [
+    "E501",   # line too long — handled by line-length, but many existing long lines
+    "E741",   # ambiguous variable names (l, O, I) — used in protobuf parsing
+    "F841",   # local variable assigned but never used — some intentional
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["bot"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+check_untyped_defs = false
+warn_unused_ignores = true

@@ -1,0 +1,42 @@
+# Secrets (never commit real credentials)
+.env
+.env.*
+!.env.example
+
+# Local tooling / IDE
+.claude/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Node / Vite
+node_modules/
+dist/
+webapp/dist/
+webapp/node_modules/
+
+# Rust
+target/
+
+# App data / databases
+data/
+*.db
+
+# One-off local migration script (use scripts/migrate_to_postgres.py instead)
+/migrate_to_postgres.py
+
+# C++ vendored dependencies (download before building, see README)
+attendance_core/nlohmann/
+
+# OS
+.DS_Store

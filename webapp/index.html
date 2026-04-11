@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <title>МИРЭА Посещаемость</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  </head>
+  <body>
+    <script>try{var t=localStorage.getItem('theme_mode');if(t==='light'||t==='ocean')document.documentElement.setAttribute('data-theme',t);if(t==='custom'){var c=JSON.parse(localStorage.getItem('custom_theme_colors')||'{}');if(c.bg_primary){var s=document.documentElement.style;s.setProperty('--bg-primary',c.bg_primary);s.setProperty('--bg-card',c.bg_card||'#1a1a1a');s.setProperty('--text-primary',c.text_primary||'#ffffff');s.setProperty('--accent',c.accent||'#4ade80')}}}catch(e){}</script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
