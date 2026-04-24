@@ -2,9 +2,9 @@
 
 Telegram Mini App для студентов МИРЭА.
 
-<img width="177" height="381" alt="Главная" src="https://github.com/user-attachments/assets/a18cb1ba-23bb-4edf-916c-95ba4bffdc3e" />
-<img width="177" height="381" alt="БРС" src="https://github.com/user-attachments/assets/4992eae7-e6f8-4e82-8fb3-f0b0e2da9140" />
-<img width="177" height="381" alt="Расписание" src="https://github.com/user-attachments/assets/c6f0385a-b175-4c5a-88c1-88e4ae34dc53" />
+<img width="177" height="381" alt="Главная" src="https://github.com/user-attachments/assets/a18cb1ba-23bb-4edf-916c-95ba4bffdc3e" >
+<img width="177" height="381" alt="БРС" src="https://github.com/user-attachments/assets/4992eae7-e6f8-4e82-8fb3-f0b0e2da9140" >
+<img width="177" height="381" alt="Расписание" src="https://github.com/user-attachments/assets/c6f0385a-b175-4c5a-88c1-88e4ae34dc53" >
 
 ## Возможности
 
